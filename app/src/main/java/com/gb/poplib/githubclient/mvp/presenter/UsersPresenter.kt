@@ -33,6 +33,10 @@ class UsersPresenter(val usersRepo: GithubUsersRepo, val router: Router) : MvpPr
 
         usersListPresenter.itemClickListener = {itemView ->
             // TODO
+          // val userLogin = usersListPresenter[itemView.pos].login
+           // val intent = Intent(context, UserScreenActivity::class.java)
+            //intent.putExtra(UserScreenActivity.EXTRA_USER_LOGIN, userLogin)
+            //router.navigateTo(intent)
         }
     }
 
